@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-// import { NewsApiService } from './news-api.service';
+import { NewsApiService } from './news-api.service';
 
 import { AppComponent } from './app.component';
 
@@ -31,7 +31,7 @@ import {
     MatListModule
   ],
   providers: [
-    // NewsApiService
+    NewsApiService
   ],
   bootstrap: [
     AppComponent
